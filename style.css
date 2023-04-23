@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New';
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 10px 0;
+    text-align: center;
+}
+
+form{
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+input[type="text"]{
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+input[type="submit"]{
+    display: block;
+    background-color: white;
+    width: 80px;
+    padding: 5px 0;
+    border: 2px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.error{
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: none;
+}
+
+.visible{
+    display: block;
+}
